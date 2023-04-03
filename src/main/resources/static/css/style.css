@@ -19,7 +19,13 @@ h1, h2 {
 	margin-bottom: 50px;
 }
 
-.adding-section, .toppart {
+.toppart {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.adding-section {
 	width: 80%;
 	display: flex;
 	flex-direction: column;
@@ -76,4 +82,17 @@ input, .tarea {
 .editDelete {
 	display: flex;
 	justify-content: space-between;
+}
+
+.details {
+	margin: 50px auto;
+	border: 0;
+	width: 90%
+}
+
+.detailTable {
+	padding: 15px;
+	border: 0px;
+	background-color: white;
+	text-align: left;
 }

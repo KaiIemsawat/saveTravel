@@ -84,4 +84,11 @@ public class TravelController {
 		return "redirect:/expenses";
 	}
 	
+//	Get details by item id
+	@GetMapping("/{id}")
+	public String details(@PathVariable("id") Long id, Model model) {
+		model.addAttribute("travel", tServ.getTravelById(id));
+		return "details.jsp";
+	}
+	
 }

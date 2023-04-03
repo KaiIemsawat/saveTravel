@@ -34,7 +34,7 @@
 				<tbody>
 					<c:forEach var="travel" items="${travels}">
 						<tr>
-							<td><c:out value="${travel.expense}"/></td>
+							<td><a href="/expenses/${travel.id}"><c:out value="${travel.expense}"/></a></td>
 							<td><c:out value="${travel.vendor}"/></td>
 							<td>$<c:out value="${travel.amount}"/></td>
 							<td class="editDelete">
