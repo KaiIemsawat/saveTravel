@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+}
+
+h1, h2 {
+	color: #0A5393;
+}
+
+.container, .editContainer {
+	margin: 50px auto;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.top-section {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.adding-section, .toppart {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+}
+
+.editHeader {
+	color: #37771D;
+}
+
+table {
+	border: 2px solid #222222;
+	width: 100%;
+}
+
+th {
+	background-color: #aaaaaa;
+}
+
+td, th {
+	padding: 3px 15px;
+	text-align: center;
+	border-right: 2px solid #222222;
+}
+
+tr:nth-child(odd) {
+	background-color: #dddddd;
+}
+
+
+.expense-input, .vendor-input, .description-input, .amount-input {
+	margin: 15px auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+input, .tarea {
+		border: 2px solid #222222;
+}
+
+.submit {
+	color: #dddddd;
+	background-color: #0A5393;
+	float: right;
+	box-shadow: 2px 2px #222222;
+}
+
+.dltBtn {
+	color: #dddddd;
+	background-color: #E06666;
+	box-shadow: 2px 2px #222222;
+	margin: auto 15px;
+}
+
+.editDelete {
+	display: flex;
+	justify-content: space-between;
+}
